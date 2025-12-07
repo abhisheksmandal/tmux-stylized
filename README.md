@@ -1,145 +1,156 @@
 # 🌟 TMUX CONFIGURATION --- STYLIZED README
 
-A clean, powerful, and modern tmux configuration with intuitive
-shortcuts, improved navigation, and full mouse + clipboard support.
+A clean, powerful, and modern tmux configuration with intuitive shortcuts, improved navigation, and full mouse + clipboard support.
 
-------------------------------------------------------------------------
+---
 
-# 🚀 Features
+## 🚀 Features
 
-✔ 256-color support\
-✔ Intuitive pane/window navigation\
-✔ Vim-style copy mode with system clipboard\
-✔ Beautiful status bar\
-✔ Mouse mode enabled\
-✔ Sessionizer integration\
+✔ 256-color support  
+✔ Intuitive pane/window navigation  
+✔ Vim-style copy mode with system clipboard  
+✔ Beautiful status bar  
+✔ Mouse mode enabled  
+✔ Sessionizer integration  
 ✔ Smart keybindings for productivity
 
-------------------------------------------------------------------------
+---
 
-# 🔧 Installation
+## 🔧 Installation
 
 Save this configuration as your `~/.tmux.conf` file:
 
-``` bash
+```bash
 cp tmux.conf ~/.tmux.conf
 tmux source-file ~/.tmux.conf
 ```
 
-------------------------------------------------------------------------
+---
 
-# 🎮 Keybindings Overview
+## 🎮 Keybindings Overview
 
-## 🧠 Prefix Keys
+### 🧠 Prefix Keys
 
--   **Main Prefix:** `Ctrl + j`\
--   **Secondary Prefix:** `Ctrl + f`
+- **Main Prefix:** `Ctrl + j`
+- **Secondary Prefix:** `Ctrl + f`
 
-------------------------------------------------------------------------
+---
 
-## 🔲 Pane Navigation (No Prefix Needed)
+### 🔲 Pane Navigation (No Prefix Needed)
 
-  Action             Keys
-  ------------------ -----------
-  Focus left pane    `Alt + ←`
-  Focus right pane   `Alt + →`
-  Focus upper pane   `Alt + ↑`
-  Focus lower pane   `Alt + ↓`
+| Action           | Keys      |
+|------------------|-----------|
+| Focus left pane  | `Alt + ←` |
+| Focus right pane | `Alt + →` |
+| Focus upper pane | `Alt + ↑` |
+| Focus lower pane | `Alt + ↓` |
 
-------------------------------------------------------------------------
+---
 
-## ➗ Split Windows
+### ➗ Split Windows
 
-  Action               Keys
-  -------------------- --------------
-  Split vertically     `Prefix + v`
-  Split horizontally   `Prefix + h`
+| Action             | Keys         |
+|--------------------|--------------|
+| Split vertically   | `Prefix + v` |
+| Split horizontally | `Prefix + h` |
 
-------------------------------------------------------------------------
+---
 
-## 🔀 Window Navigation
+### 🔀 Window Navigation
 
-  Action            Keys
-  ----------------- -------------
-  Previous window   `Shift + ←`
-  Next window       `Shift + →`
+| Action          | Keys        |
+|-----------------|-------------|
+| Previous window | `Shift + ←` |
+| Next window     | `Shift + →` |
 
-------------------------------------------------------------------------
+---
 
-## 🔃 Reorder Windows
+### 🔃 Reorder Windows
 
-  Action              Keys
-  ------------------- --------------------
-  Move window left    `Ctrl + Shift + ←`
-  Move window right   `Ctrl + Shift + →`
+| Action            | Keys                |
+|-------------------|---------------------|
+| Move window left  | `Ctrl + Shift + ←` |
+| Move window right | `Ctrl + Shift + →` |
 
-------------------------------------------------------------------------
+---
 
-## 📡 Synchronize Panes
+### 📡 Synchronize Panes
 
-    Prefix + y
+```
+Prefix + y
+```
 
-------------------------------------------------------------------------
+---
 
-## 🔄 Reload Configuration
+### 🔄 Reload Configuration
 
-    Prefix + r
+```
+Prefix + r
+```
 
-------------------------------------------------------------------------
+---
 
-## 🧹 Clear Scrollback
+### 🧹 Clear Scrollback
 
-    Shift + L
+```
+Shift + L
+```
 
-------------------------------------------------------------------------
+---
 
-# 📋 Copy / Paste
+## 📋 Copy / Paste
 
 ### Inside Copy Mode (Vim keys)
 
--   Start selection → `v`\
--   Copy to clipboard → `y`\
--   Paste → `p`\
--   Mouse drag → auto copy
+- Start selection → `v`
+- Copy to clipboard → `y`
+- Paste → `p`
+- Mouse drag → auto copy
 
-------------------------------------------------------------------------
+---
 
-# 🐁 Mouse Mode
+## 🐁 Mouse Mode
 
--   Click to switch panes\
--   Scroll to enter copy-mode\
--   Drag to resize\
--   Mouse selection copies via xclip
+- Click to switch panes
+- Scroll to enter copy-mode
+- Drag to resize
+- Mouse selection copies via xclip
 
-------------------------------------------------------------------------
+---
 
-# 🎨 Status Bar
+## 🎨 Status Bar
 
-Left side shows:
+**Left side shows:**
+```
+💻 HOSTNAME [SESSION]
+```
 
-    💻 HOSTNAME [SESSION]
+**Right side shows:**
+```
+🕔 HH:MM
+```
 
-Right side shows:
+---
 
-    🕔 HH:MM
-
-------------------------------------------------------------------------
-
-# 🧰 Sessionizer
+## 🧰 Sessionizer
 
 Open with:
+```
+Prefix + f
+```
+or
+```
+Ctrl + f
+```
 
-    Prefix + f
-    Prefix + j
+---
 
-------------------------------------------------------------------------
-
-# 📝 License
+## 📝 License
 
 MIT --- Feel free to use, modify, or share.
 
-------------------------------------------------------------------------
+---
 
-# ❤️ Credits
+## ❤️ Credits
 
 Created with a focus on productivity and aesthetics.
